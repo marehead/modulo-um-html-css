@@ -2,22 +2,164 @@
 
 <html>
     <head>
-        <title>Site da MARINA</title>
+        <title>Site Pretalabbers</title>
+        <meta name="descrição do meu site" content="meu primeiro site em html">
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color: blue;
+            }
+            h1 {
+                color: black;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <!-- tags de titulo -->
-        <h1>Esse é meu primeiro site! </h1>
-        <h2></h2>
+        <h1>Esse é meu primeiro site pretalabbers! </h1>
+        <p style="color: green">
+        <h2>Introdução ao Front-end</h2>
         <h3></h3>
         <h4></h4>
         <h5></h5>
+    <p>
+        <b>frase em negrito!</b>
+        <br/><br/>
+        <i>frase em italico!</i>
+        <br/><br/>
+        <strong> frase forte!</strong>
+        <br/><br/>
+        <small>Frase small</small><br/>
+        <u> frase sublinhada<u></br><br/>
+        <s>Frase riscada</s>
+        <br/>
+        <p>frase normal</p>
+    <!-- Listas -->
 
-        <!--tag de paragrafo-->
-        <p>
-            Reza pra quem não crê, reza pra conquistar
-            Reza pra agradecer o dia que vai chegar 
-            reza é pra quem tem fé nas lendas que vem de lá
-            Reza pra proteger tudo nesse lugar
-        </p>
+    <h1>Lista ordenada</h1>
+    <ol>
+        <li>Comprar pão</li>
+        <li>fazer o café</li>
+        <li>me alimentar</li>
+    </ol>
+
+    <h2 class="primeiraLista">Lista ordenada pelo número que eu quiser</h2>
+    <ol start="5">
+        <li>Estudar</li>
+        <li>montar um portfolio</li>
+        <li>Arrumar um emprego!!!</li>
+    </ol>
+
+    <h2 class="segundaLista">Lista em ordem alfabetica</h2>
+    <ol type="a">
+        <li>Estudar</li>
+        <li>montar um portfolio</li>
+        <li>Arrumar um emprego!!!</li>
+</ol>
+
+    <h2>Lista em ordem de algarismo romano</h2>
+    <ol type="I">
+        <li>Estudar</li>
+        <li>montar um portfolio</li>
+        <li>Arrumar um emprego!!!</li>
+    </ol>
+
+    <h2>Lista desordenada</h2>
+    <ul type="square">
+        <li>Estudar</li>
+        <li>montar um portfolio</li>
+        <li>Arrumar um emprego!!!</li>
+    </ul>
+
+    <h2>Lista desordenada</h2>
+    <ul type="circle">
+        <li>Estudar</li>
+        <li>montar um portfolio</li>
+        <li>Arrumar um emprego!!!</li>
+    </ul>
+    <h1>Tabelas</h1>
+    <table border="3">
+       <!-- tabelas semânticas -->
+
+       <!-- cabeçalho da tabela -->
+       <thead>
+        <tbody>
+            <tr>
+                <th>Titulo 1</th>
+                <th>Titulo 2</th>
+                <th>Titulo 3</th>
+            </tr>
+       </thead>
+       <!-- corpo da tabela -->
+       <tbody>
+        <tr>
+            <td>body 1</td>
+            <td>body 2</td>
+            <td>body 3</td>
+        </tr>
+        <tr>
+            <td>body coluna1</td>
+            <td>body coluna2</td>
+            <td>body Coluna3</td>
+        </tr>
+    </tbody>
+
+   </table>
+
+   <h1>Inserindo Imagens</h1>
+   <img src="img/me.jfif" width="200" height="205"/>
+   <h2>Pinguin</h2>
+   <img src="img/pinguin.jpeg" width="200" height="205"/>
+   <br></br>
+
+   <h1>Links</h1>
+    <a href="https://g1.globo.com/" target="_blank">G1 noticias</a>
+    <br/><br/>
+    <a href="https://www.linkedin.com/in/mldosantos/" target="_blank">Meu Linkedin</a>
+    <br/><br/>
+   </h1>
+   <!-- tag de formulario -->
+   <h2>Formulario</h2>
+   <form>
+        <label>Nome:</label> <br/>
+        <input type="text"/>
+        <br/><br/>
+        <label>Email:</label> <br/>
+        <input type="mensagem"/>
+        <br/><br/>
+        <label>Senha</label> <br/>
+        <input type="password"/>
+        <br><br>
+        <label>Mensagem:</label> <br/>
+        <textarea></textarea>
+        <br/><br/>
+        <label>Telefone:</label> <br/>
+        <input type="text"/>
+        <br/><br/>
+        <button type="submit">Enviar</button></button>
+   </form>
+
+   <h2 class="segundasListas">criando celula vazia</h2>
+   <h2>Mesclando células (colspan)</h2>
+   <table border="1">
+    <tr>
+        <th>Nome</th>
+        <!-- eu quero mesclar duas colunas -->
+        <th colspan="2">Telefones</th>
+    </tr>
+
+    <tr>
+        <td>Junior</td>
+        <td>0000-0000</td>
+        <td>1111-1111</td>
+    </tr>
+   </table><br>
+
+
+
+
+ </body>
+
 </html>
