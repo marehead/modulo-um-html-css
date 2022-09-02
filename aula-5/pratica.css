@@ -1,0 +1,49 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    border: 2px solid yellowgreen;
+}
+
+
+.card{
+   /*largura*/
+   width:425px;
+   /*altura*/
+   height: 212px;
+   border: 1px solid black;
+   margin: 10px 0 10px 11px;
+   padding: 10px;
+}
+
+.card-titulo{
+    font-size: medium;
+    margin: 0 0 10px 0;
+    display: inline; 
+}
+
+.card-imagem{
+    width: 35%; 
+    float: right;
+    margin-top: 20px;
+    display: inline;
+}
+
+.card-text{
+    display: inline-block;
+    width: 65%;
+    float: right;
+    font-size: small;
+    line-height: 15pt;
+    margin-top: 0 0 10px 20px;
+
+}
+
+
+
+
+
+
+
+
