@@ -1,44 +1,65 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    
 }
 
 body {
-    border: 2px solid yellowgreen;
-}
+    border: 100px groove  #75452f;
+    background-color: #583728;
+    color: black;
+    text-align: center;
+    height: 800px;
+    font-size: large;
 
+    
+
+}
 
 .card{
    /*largura*/
    width:425px;
    /*altura*/
-   height: 212px;
-   border: 1px solid black;
-   margin: 10px 0 10px 11px;
+   height: 250px;
+   border: 10px groove #71381f;
+   background-color: black;
+   margin: 10px 70px 10px 50px;
    padding: 10px;
+   display: inline-table;
+   float: center; 
+   color: #D2691E;
+   text-align: left;
 }
 
 .card-titulo{
     font-size: medium;
-    margin: 0 0 10px 0;
-    display: inline; 
+    margin: 50px 50px 10px 50px;
+    display: Inline;
+    background-color: black;
+    border: 5px double black;
+    
+    
 }
 
 .card-imagem{
-    width: 35%; 
+    width: 30%; 
     float: right;
-    margin-top: 20px;
+    margin-top: 65px;
     display: inline;
 }
 
 .card-text{
-    display: inline-block;
+    display: inline;
     width: 65%;
     float: right;
     font-size: small;
     line-height: 15pt;
-    margin-top: 0 0 10px 20px;
+    margin-top: 10 0 10px 20px;
 
 }
+
+
+
 
 
 
